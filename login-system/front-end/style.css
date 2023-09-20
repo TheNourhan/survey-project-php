@@ -1,0 +1,164 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.div_navbar
+{
+    width: 90%;
+    margin-left: 5%;
+    background-color: transparent;
+}
+.dropdown-menu button
+{
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    padding: 10px 0;
+    font-weight: bold;
+}
+
+.dropdown-menu button:hover
+{
+    background-color: red;
+    color: white;
+}
+
+
+
+
+.login
+{
+    position: relative;
+}
+
+.div_login
+{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient( #EBEDC5  ,  #357786);
+    z-index: -1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.div_login_intro
+{
+    width: 100%;
+    max-width: 320px;
+    position: relative;
+    border-radius: 15px;
+    background-color: #35778636;
+    
+}
+.div_login_intro_icon
+{
+    position: absolute;
+    top: -50px;
+    left: 110px;
+    width: 100px;
+    height: 100px;
+    background-color: #357786;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.div_login_intro_icon i{
+    font-size: 50px;
+    color: white;
+}
+
+
+
+.div_login_intro_content
+{
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+    color: #373737;
+}
+.div_register_intro_content
+{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    color: #373737;
+    height: 70vh;
+    overflow-y: scroll;
+}
+.div_register_intro_content h3
+{
+    margin-top: 300px;
+}
+
+.div_register_intro_content > div input
+{
+    padding: 10px;
+    border-radius: 10px;
+}   
+
+.div_login_intro_content > div
+{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 20px;
+    background-color: aliceblue;
+    width: 80%;
+    border-radius: 20px;
+}
+
+.div_login_intro_content > div input
+{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    padding: 10px 0;
+    width: 80%;
+}
+.div_login_intro_content > div i
+{
+    font-size: 20px;
+    padding: 0 10px;
+    color: #868686;
+}
+
+.div_login button
+{
+    width: 80%;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #357786;
+    color: white;
+    border: none;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.div_login hr 
+{
+    border: black 1px solid;
+}
+.div_login p 
+{
+    color: white;
+    font-size: small;
+}
+.div_login a{
+    font-size:medium;
+    color: white;
+    text-decoration: none;
+}

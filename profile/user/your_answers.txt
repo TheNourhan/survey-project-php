@@ -1,0 +1,10 @@
+Question 1: The most popular programming language in your surroundings?, Option: php
+Question 2: Why did you prefer it over other languages?, Option: Increase knowledge of web languages
+Question 3: Do you have prior knowledge of a programming language?, Option: i don&#039;t have the skill
+Question 4:  How long does it take you to learn a programming language?, Option: Between 6 months and a year
+Question 5: Is it necessary for the programmer to be proficient in English?, Option: To some extent
+Question 6: What languages ​​do you recommend for beginners?, Option: c++
+Question 7: In your opinion, which language will be more widespread in the future?, Option: c++
+Question 8: Are you thinking of working in a field related to programming languages?, Option: No
+Question 9: The most demanded programming languages ​​in the labor market?, Option: python
+Question 10: Is mathematics important in learning programming?, Option: Yes

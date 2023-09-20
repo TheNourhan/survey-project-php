@@ -1,0 +1,80 @@
+table
+{
+    table-layout : fixed;
+    border-collapse : collapse;
+    border : 1px solid black;
+
+}
+table tr th , table tr td
+{
+border : 1px solid black;
+padding: 15px;
+}
+ 
+form input,  button{
+    padding: 10px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+button
+{
+    background-color: black;
+    color: white;
+}
+button:hover
+{
+    color: black;
+    background-color: white;
+}
+select{
+    padding: 15px;
+    margin-right: 20px;
+}
+
+body
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+a{
+    text-decoration: none;
+    color: white;
+}
+button:hover a{
+    color: black;
+}
+
+#form_button
+{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+.question
+{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 80px;
+}
+
+#form_update
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#form_update input:nth-child(1)
+{
+    display: inline;
+}
